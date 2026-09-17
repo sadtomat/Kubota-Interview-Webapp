@@ -8,6 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <MessageButton />
+        <img
+          src="https://testwebappblobstorage.blob.core.windows.net/images/testimage.JPG"
+          alt="new"
+        />
         <a
           className="App-link"
           href="https://reactjs.org"
