@@ -1,5 +1,5 @@
 .box {
-    background-color: #e6e6ff;
+    background-color: #e6ffff;
     width: 24vw;
     height: 9vw;
     border: 0.2vw outset black;
@@ -7,7 +7,7 @@
 }
 
 .box:hover {
-    background-color: #ccccff;
+    background-color: #ccffff;
 }
 
 .top-text {
