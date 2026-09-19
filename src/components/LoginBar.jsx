@@ -6,6 +6,7 @@ const LoginBar = () => {
 
     const { user, loading } = useUser();
 
+
     if (loading) {
         return (
             <div className="login-bar">
@@ -24,6 +25,7 @@ const LoginBar = () => {
     }else {
         return (
             <div className="login-bar">
+                <img src="https://testwebappblobstorage.blob.core.windows.net/images/profile.png" className="pfp-img" alt=""></img>
                 <NavButton link="/.auth/logout" linkText="Logout" variant="login" />
                 <span className="title-text">Welcome to the Kubota Test Web App</span>
             </div>

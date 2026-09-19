@@ -7,9 +7,9 @@ export function useUser() {
     useEffect(() => {
         async function fetchUser() {
             try {
-                const response = await fetch("/.auth/me");
+                const response = await fetch("/.auth/me", {cache: "no-store"});
                 const payload = await response.json();
-                setUser(payload.clientPrinciple);
+                setUser(payload.clientPrincipal);
             } catch (err){
                 console.error("error fetching auth state: ", err);
                 setUser(null);
