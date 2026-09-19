@@ -1,14 +1,18 @@
-.loginbar {
+.login-bar {
     display: flex;
     background-color: #f2f2f2;
     flex-direction: row-reverse;
     height: 3.5vw;
 }
-.titleText {
+.title-text {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 1.5vw;
     margin-right: 60vw;
     padding-top: 0.5vw;
     font-weight: bold;
-    
+
+}
+.loading-text {
+    font-size: 1vw;
+    text-align: center;
 }

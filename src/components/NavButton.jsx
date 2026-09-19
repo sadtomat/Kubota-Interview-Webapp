@@ -6,7 +6,11 @@ export default function NavButton({link, linkText, variant = "primary"}) {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(link);
+        if (variant == "login"){
+            window.location.href = link;
+        }else {
+            navigate(link);
+        }
     }
 
     //if variant is not primary, add the variant class to the button, otherwise just use the button class
