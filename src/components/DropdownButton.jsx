@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import "./DropdownButton.css";
-import NavButton from "./Navbutton.jsx";
+import NavButton from "./NavButton.jsx";
 
 export default function DropdownButton({ label, options }) {
     const [isOpen, setIsOpen] = useState(false);
