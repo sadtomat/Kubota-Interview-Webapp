@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Store from './pages/Store';
-import Cart from './pages/Cart';
-import Home from './pages/Home';
-import reportWebVitals from './reportWebVitals';
+import Store from './pages/Store.js';
+import Cart from './pages/Cart.js';
+import Home from './pages/Home.js';
+import reportWebVitals from './reportWebVitals.js';
 import { BrowserRouter, Routes, Route } from 'react-router';
-import Layout from './components/Layout';
+import Layout from './components/Layout.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

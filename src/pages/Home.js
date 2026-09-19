@@ -1,4 +1,4 @@
-import VideoAutoplayer from "../components/VideoAutoplayer";
+import VideoAutoplayer from "../components/VideoAutoplayer.jsx";
 import "./Home.css";
 
 function Home() {

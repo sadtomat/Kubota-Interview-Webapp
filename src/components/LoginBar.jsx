@@ -1,4 +1,4 @@
-import NavButton from './Navbutton';
+import NavButton from './Navbutton.jsx';
 import './LoginBar.css';
 
 const LoginBar = () => {

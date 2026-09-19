@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import NavButton from './Navbutton';
-import DropdownButton from './DropdownButton';
+import NavButton from './Navbutton.jsx';
+import DropdownButton from './DropdownButton.jsx';
 
 const Navbar = () => {
     return (

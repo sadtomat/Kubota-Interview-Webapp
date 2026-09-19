@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { getMessage } from "../api/messageApi";
+import { getMessage } from "../api/messageApi.jsx";
 
 export default function MessageButton() {
     const [message, setMessage] = useState("");
     const [loading, setLoading] = useState(false);
 
+    //handles pinging of api and setting of message state
     const handleClick = async () => {
         setLoading(true);
         try {
