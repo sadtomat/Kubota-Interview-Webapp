@@ -6,7 +6,7 @@ export default function NavButton({link, linkText, variant = "primary"}) {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        if (variant == "login"){
+        if (variant === "login"){
             window.location.href = link;
         }else {
             navigate(link);
