@@ -4,6 +4,7 @@ import './index.css';
 import Store from './pages/Store.js';
 import Cart from './pages/Cart.js';
 import Home from './pages/Home.js';
+import Contact from './pages/Contact.js';
 import reportWebVitals from './reportWebVitals.js';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import Layout from './components/Layout.jsx';
@@ -12,10 +13,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>'
+      <Routes>
         <Route element={<Layout />}>
           <Route path='/store' element={<Store />} />
           <Route path='/cart' element={<Cart/>} />
+          <Route path='/contact' element={<Contact />} />
           <Route path="/" element={<Home />} />
         </Route>
       </Routes>

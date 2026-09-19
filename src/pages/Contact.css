@@ -1,0 +1,48 @@
+.top-box {
+    background-color: white;
+    display: flex;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-right: 0.15vw outset grey;
+    border-left: 0.15vw outset grey;
+    border-bottom: 0.15vw outset grey;
+    box-shadow: 0.26vw 0.26vw 0.365vw 0.26px rgba(0,0,0,0.35), -0.26vw 0.26vw 0.365vw 0.26px rgba(0,0,0,0.35);
+}
+
+.top-img {
+    object-fit: cover;
+    height: 25vw;
+    width: 40vw;
+    max-width: 50vw;
+    display: inline-block;
+}
+
+.title-box {
+    align-items: center;
+    width: 40vw;
+}
+
+.title-text {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 3vw;
+    padding-top: 5vw;
+    color: #000080;
+    font-weight: bold; 
+}
+
+.bottom-box {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-box-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5vw;
+}

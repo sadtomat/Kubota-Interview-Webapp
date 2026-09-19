@@ -1,0 +1,31 @@
+.box {
+    background-color: #e6e6ff;
+    width: 24vw;
+    height: 9vw;
+    border: 0.2vw outset black;
+    box-shadow: 0.26vw 0.26vw 0.365vw 0px rgba(0,0,0,0.35);
+}
+
+.box:hover {
+    background-color: #ccccff;
+}
+
+.top-text {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1.75vw;
+    text-align: left;
+    margin: 1vw;
+    font-weight: bold;
+}
+
+.content {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1vw;
+    text-align: left;
+    margin: 1vw;
+}
+
+.content--email {
+    text-decoration: underline;
+    color: #4d4dff;
+}

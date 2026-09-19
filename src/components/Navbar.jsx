@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div class="navbar">
             <NavButton link="/" linkText="Home" />
-            <NavButton link="/about" linkText="Contact" />
+            <NavButton link="/contact" linkText="Contact us" />
             <DropdownButton
                 label="Store"
                 options={[
