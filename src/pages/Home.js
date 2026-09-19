@@ -23,7 +23,7 @@ function Home() {
                         leo eu aenean sed diam urna tempor. Pulvinar vivamus
                         fringilla lacus nec metus bibendum.
                     </p>
-                    <img src="https://testwebappblobstorage.blob.core.windows.net/images/home1.jpg" className="bottom-box-image" />
+                    <img src="https://testwebappblobstorage.blob.core.windows.net/images/home1.jpg" className="bottom-box-image" alt=""/>
                 </div>
                 <div className="individual-bottom-box">
                     <h className="bottom-box-header">Values</h>
@@ -32,15 +32,15 @@ function Home() {
                         Lorem ipsum dolor sit amet consectetur adipiscing elit.
                         Quisque faucibus ex sapien vitae pellentesque sem placerat.
                     </p>
-                    <img src="https://testwebappblobstorage.blob.core.windows.net/images/home2.jpg" className="bottom-box-image" />
+                    <img src="https://testwebappblobstorage.blob.core.windows.net/images/home2.jpg" className="bottom-box-image" alt=""/>
                 </div>
                 <div className="individual-bottom-box">
                     <h className="bottom-box-header">Mobile App</h>
-                    <img src="https://testwebappblobstorage.blob.core.windows.net/images/home3.jpg" className="app-logo" />
+                    <img src="https://testwebappblobstorage.blob.core.windows.net/images/home3.jpg" className="app-logo" alt="" />
                     <p className="bottom-box-paragraph">
                         Check out our app at the app store!
                     </p>
-                    <a href="https://www.apple.com/ca/app-store/" target="_blank">
+                    <a href="https://www.apple.com/ca/app-store/" target="_blank" rel="noreferrer">
                         Learn more ➔
                     </a>
                 </div>
