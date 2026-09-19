@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #e6e6ff;
+    gap: 4vw;
+    height: 3.5vw;
+    border-top: 0.2vw solid;
+    border-bottom: 0.2vw solid;
+}
