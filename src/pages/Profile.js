@@ -40,28 +40,6 @@ function Profile() {
             </div>
         );
     }
-
-    // const items = [
-    //     {title: "ID:", info: user.userID},
-    //     {title: "Identity Provider:", info: user.identityProvider}
-    // ];
-
-    return (
-        <div className="outer-box">
-            <div className="profile-box">
-                <div className="inner-box">
-                    <img src="https://testwebappblobstorage.blob.core.windows.net/images/profile.png" className="profile-img" alt=""/>
-                </div>
-                <div className="info-box">
-                    <h1 className="name-text">{user.userDetails}</h1>
-                    <div className="attributes-box">
-                        <InfoCard title="ID:" info={user.userID}/>
-                        <InfoCard title="Identity Provider:" info={user.identityProvider}/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
 }
 
 export default Profile;
