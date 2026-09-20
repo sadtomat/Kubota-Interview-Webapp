@@ -1,0 +1,14 @@
+.infocard-ind {
+    display: flex;
+}
+.infocard-title {
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.8vw;
+    margin-top: 0.8vw;
+}
+.infocard-body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.8vw;
+    margin-left: 0.25vw;
+}

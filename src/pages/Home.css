@@ -90,4 +90,5 @@ a {
     display: block;
     text-decoration: none;
     border-top: 0.1vw solid grey;
+    cursor: pointer;
 }

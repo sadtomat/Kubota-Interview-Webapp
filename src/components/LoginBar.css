@@ -4,7 +4,7 @@
     flex-direction: row-reverse;
     height: 3.5vw;
 }
-.title-text {
+.web-title-text {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 1.5vw;
     margin-right: 50vw;
@@ -17,9 +17,10 @@
     text-align: center;
 }
 .pfp-img {
-    width: 3vw;
-    height: 3vw;
-    margin-right: 2vw;
-    margin-left: 1vw;
-    margin-top: 0.2vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-right: 2.5vw;
+    margin-left: 1.5vw;
+    margin-top: 0.5vw;
+    cursor: pointer;
 }

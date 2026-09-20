@@ -5,6 +5,7 @@ import Store from './pages/Store.js';
 import Cart from './pages/Cart.js';
 import Home from './pages/Home.js';
 import Contact from './pages/Contact.js';
+import Profile from './pages/Profile.js';
 import reportWebVitals from './reportWebVitals.js';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import Layout from './components/Layout.jsx';
@@ -18,6 +19,7 @@ root.render(
           <Route path='/store' element={<Store />} />
           <Route path='/cart' element={<Cart/>} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/profile' element={<Profile />} />
           <Route path="/" element={<Home />} />
         </Route>
       </Routes>
