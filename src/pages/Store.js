@@ -19,7 +19,7 @@ function Store() {
             <Sidebar selectedFilters={selectedFilters} onToggleFilter={handleFilter}/>
             <div className="product-grid-box">
                 <h1 className="results-title">Results: </h1>
-                <ItemGrid/>
+                <ItemGrid filters={selectedFilters}/>
             </div>
         </div>
     )

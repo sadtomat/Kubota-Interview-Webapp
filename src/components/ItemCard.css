@@ -8,6 +8,7 @@
 }
 .itemcard-outerbox:hover {
     background-color: #cccccc;
+    border: 0.2vw inset #4d4d4d;
 }
 
 .itemcard-img {
@@ -39,4 +40,5 @@
     height: 2.5vw;
     background-color: #ffff66;
     font-size: 1vw;
+    margin: 0.25vw;
 }
