@@ -1,0 +1,58 @@
+.store-sidebar {
+    width: 23vw;
+    background-color: #e6e6e6;
+    border-right: 0.25vw solid black;
+    position: sticky;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-options-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2.5vw;
+    position: relative;
+    align-items: center;
+}
+.sidebar-options-list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 0.1vw;
+    background-color: grey;
+}
+
+.sidebar-title {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 2vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.sidebar-header-items {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1.25vw;
+    border-bottom: 0.1vw solid #b3b3b3;
+}
+
+.sidebar-buttons {
+    margin-top: 0.5vw;
+    border: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1vw;
+    background-color: #e6e6e6;
+}
+.sidebar-buttons:hover {
+    font-weight: bold;
+}
+.active {
+    font-weight: bold;
+}

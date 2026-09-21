@@ -1,0 +1,6 @@
+.itemgrid-outerbox {
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+}

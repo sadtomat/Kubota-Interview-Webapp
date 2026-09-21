@@ -1,0 +1,18 @@
+.store-outer-box {
+    display: flex;
+    height: 100vw;
+}
+
+
+.product-grid-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.results-title {
+    font-family: "Lucida Sanss Unicode", "Lucida Grande", sans-serif;
+    font-size: 3vw;
+    padding-left: 1vw;
+    font-weight: bold; 
+    height: 5vw;
+}

@@ -1,0 +1,42 @@
+.itemcard-outerbox {
+    width: 20vw;
+    height: 22vw;
+    background-color:#e6e6e6;
+    border: 0.2vw inset #808080;
+    margin: 2vw;
+    padding: 1vw;
+}
+.itemcard-outerbox:hover {
+    background-color: #cccccc;
+}
+
+.itemcard-img {
+    width: 20vw;
+    height: 10vw;
+    object-fit: fill;
+}
+
+.itemcard-title {
+    font-size: 1.25vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+.itemcard-desc {
+    font-size: 1vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.itemcard-price {
+    font-size: 1vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #661a00;
+    font-weight: bold;
+}
+
+.itemcard-add {
+    width: 5vw;
+    height: 2.5vw;
+    background-color: #ffff66;
+    font-size: 1vw;
+}
