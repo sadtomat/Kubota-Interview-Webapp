@@ -1,0 +1,12 @@
+.addcartbutton-button {
+    width: 6vw;
+    height: 3.5vw;
+    background-color: #ffff99;
+    border: 0.15vw solid black;
+    margin-top: 2vw;
+    margin-left: 4vw;
+}
+.addcartbutton-button:hover {
+    background-color: #ffff66;
+    cursor: pointer;
+}

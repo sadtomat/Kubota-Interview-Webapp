@@ -1,0 +1,9 @@
+.itempage-outerbox {
+    display: flex;
+    height: 86vh;
+}
+.itempage-leftbox {
+    display: flex;
+    width: 70vw;
+    height: fill;
+}

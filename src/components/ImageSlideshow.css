@@ -1,0 +1,50 @@
+.slideshow-outerbox {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slideshow-img {
+  width: 60vw;
+  height: 70vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: block;
+  object-fit: contain
+}
+
+.slideshow-arrow {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 1.5vw;
+  padding: 0.5vw 0.75vw;
+  cursor: pointer;
+  border-radius: 0.25px;
+}
+.slideshow-arrow.l {
+  left: 10vw;
+}
+.slideshow-arrow.r {
+  right: 10vw;
+}
+
+.slideshow-marker {
+  display: flex;
+  justify-content: center;
+  gap: 0.5vw;
+  margin-top: 1vw;
+}
+
+.dot {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #333;
+}

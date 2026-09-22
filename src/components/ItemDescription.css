@@ -1,0 +1,56 @@
+.itemdesc-outerbox {
+    width: 30vw;
+    padding-left: 1.5vw;
+    background-color:  #ffd9b3;
+    display: flex;
+    flex-direction: column;
+    gap: 0vw;
+    margin: 0vw;
+}
+
+.itemdesc-title {
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-bottom: 1vw;
+}
+
+.itemdesc-header {
+    font-size: 1.2vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #595959;
+    border-bottom: 0.1vw solid #b3b3b3;
+}
+
+.itemdesc-price {
+    padding-top: 3.5vw;
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.itemdesc-desc {
+    font-size: 1vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    white-space: pre-wrap;
+}
+
+.itemdesc-cat {
+    font-size: 1vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #595959;
+    padding-top: 1vw;
+    margin-bottom: 0.5vw;
+}
+
+.itemdesc-ID {
+    font-size: 1vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #595959;
+    margin: 0;
+}
+
+.itemdesc-bottombox {
+    display: flex;
+    flex-direction: row;
+}

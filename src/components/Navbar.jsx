@@ -11,9 +11,9 @@ const Navbar = () => {
             <DropdownButton
                 label="Store"
                 options={[
-                    { label: "Tractors", link: "/store" },
-                    { label: "Mowers", link: "/mowers" },
-                    { label: "Excavators", link: "/excavators" },
+                    { label: "Tractors", link: "/store?filter=tractor" },
+                    { label: "Mowers", link: "/store?filter=mower" },
+                    { label: "Excavators", link: "/store?filter=excavator" },
                 ]}
             />
             <NavButton link="/cart" linkText="Cart 🛒" variant="cart" />

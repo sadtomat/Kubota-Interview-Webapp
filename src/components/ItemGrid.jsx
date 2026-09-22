@@ -2,6 +2,7 @@ import './ItemGrid.css';
 import ItemCard from "./ItemCard.jsx";
 import { useEffect, useState } from "react";
 
+
 export default function ItemGrid({filters}){
     const [items, setItems] = useState([]);
     const [loading, setLoading] = useState([]);
@@ -10,7 +11,9 @@ export default function ItemGrid({filters}){
         async function fetchItems() {
             try {
                 const response = await fetch("/api/getProducts");
+                //console.log(response)
                 const parsed = await response.json();
+                //console.log(parsed)
                 setItems(parsed);
             } catch (err) {
                 console.error("failed to fetch: ", err);
@@ -22,7 +25,7 @@ export default function ItemGrid({filters}){
         fetchItems();
     }, []);
     
-    console.log(items);
+    //console.log(items);
 
     if (loading) {
         return <div>loading...</div>
@@ -36,7 +39,7 @@ export default function ItemGrid({filters}){
         <div className="itemgrid-outerbox">
             {/* <ItemCard title={items[0].Name} header={items[0].Header} imgsrc={items[0].ImageUrl} price={items[0].Price}/> */}
             {filteredItems.map((item) =>(
-                <ItemCard key={item.ProductId} title={item.Name} header={item.Header} imgsrc={item.ImageUrl} price={item.Price}/>
+                <ItemCard key={item.ProductId} title={item.Name} header={item.Header} imgsrc={item.ImageUrl} price={item.Price} itemId={item.ProductId}/>
             ))}
         </div>
     )
