@@ -14,7 +14,7 @@
 .itemcard-img {
     width: 20vw;
     height: 10vw;
-    object-fit: fill;
+    object-fit: stretch;
 }
 
 .itemcard-title {

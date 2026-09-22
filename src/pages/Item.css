@@ -5,5 +5,5 @@
 .itempage-leftbox {
     display: flex;
     width: 70vw;
-    height: fill;
+    height: stretch;
 }
