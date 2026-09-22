@@ -8,24 +8,28 @@ import Contact from './pages/Contact.js';
 import Profile from './pages/Profile.js';
 import Item from './pages/Item.js';
 import reportWebVitals from './reportWebVitals.js';
+import { CartProvider } from './context/CartContext.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import Layout from './components/Layout.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path='/store' element={<Store />} />
-          <Route path='/cart' element={<Cart/>} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/profile' element={<Profile />} />
-          <Route path="/item" element={<Item />} />
-          <Route path="/" element={<Home />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <CartProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path='/store' element={<Store />} />
+            <Route path='/cart' element={<Cart/>} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/profile' element={<Profile />} />
+            <Route path="/item" element={<Item />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/" element={<Home />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </CartProvider>
   </React.StrictMode>
 );
 

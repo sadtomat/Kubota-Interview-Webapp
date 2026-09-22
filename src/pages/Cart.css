@@ -1,0 +1,26 @@
+.cart-outerbox {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6e6e6;
+}
+
+.cart-listbox {
+    width: 60vw;
+    height: 85vh;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    border: 0.2vw solid #666666;
+    background-color: white;
+}
+
+.cart-pfpbox {
+    width: 30vw;
+    height: 30vh;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 0.2vw solid #666666;
+    background-color: white;
+}

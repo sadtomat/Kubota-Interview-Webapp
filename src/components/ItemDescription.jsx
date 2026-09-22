@@ -14,7 +14,7 @@ export default function ItemDescription({info}) {
                     <h1 className="itemdesc-cat">Category: {info.Type}</h1>
                     <h1 className="itemdesc-ID">Product Id: {info.ProductId}</h1>
                 </div>
-                <AddCartButton/>
+                <AddCartButton item={info} quantity={1}/>
             </div>
         </div>
     )
