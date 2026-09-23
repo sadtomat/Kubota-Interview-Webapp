@@ -1,5 +1,4 @@
 import './ItemCard.css';
-import { useNavigate } from "react-router-dom";
 import AddCartButton from "./AddCartButton.jsx";
 import NavButton from "./NavButton.jsx";
 
