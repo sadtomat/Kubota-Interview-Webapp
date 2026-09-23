@@ -1,6 +1,6 @@
 import './Sidebar.css'
 
-export default function Sidebar({ selectedFilters, onToggleFilter }) {
+export default function Sidebar({ selectedFilters = [], onToggleFilter }) {
     const filters = ["tractor", "mower", "excavator"];
 
     return (

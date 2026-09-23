@@ -6,11 +6,12 @@ import { useSearchParams } from "react-router-dom";
 
 function Store() {
     const [searchParams] = useSearchParams();
-    const initialFilter = searchParams.get("filter");
+    const [selectedFilters, setSelectedFilters] = useState();
 
-    const [selectedFilters, setSelectedFilters] = useState(
-        initialFilter ? [initialFilter] : []
-    );
+    useEffect(() => {
+        const filter = searchParams.get("filter");
+        setSelectedFilters(filter ? [filter] : []);
+    }, [searchParams]);
 
     function handleFilter(category) {
         setSelectedFilters((prev) => 

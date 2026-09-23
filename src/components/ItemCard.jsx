@@ -5,10 +5,6 @@ import NavButton from "./NavButton.jsx";
 
 export default function ItemCard({info}){
     const navigate = useNavigate();
-
-    const handleClick = () => {
-        navigate(`/item?id=${info.ProductId}`);
-    }
     
     return (
         <div className="itemcard-outerbox">

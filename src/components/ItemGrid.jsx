@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export default function ItemGrid({filters}){
     const [items, setItems] = useState([]);
-    const [loading, setLoading] = useState([]);
+    const [loading, setLoading] = useState([true]);
 
     useEffect(() => {
         async function fetchItems() {
@@ -44,7 +44,7 @@ export default function ItemGrid({filters}){
         <div className="itemgrid-outerbox">
             {/* <ItemCard title={items[0].Name} header={items[0].Header} imgsrc={items[0].ImageUrl} price={items[0].Price}/> */}
             {filteredItems.map((item) =>(
-                <ItemCard info={item}/>
+                <ItemCard info={item} key={item.ProductId}/>
             ))}
         </div>
     )
