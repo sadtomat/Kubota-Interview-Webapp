@@ -15,9 +15,13 @@ let poolPromise;
 
 function getPool() {
     //console.log(process.env.SQL_CONNECTION_STRING);
-    if (!poolPromise) {
-        poolPromise = sql.connect(config);
+
+    if (poolPromise && pool.connected) {
+        return poolPromise;
     }
+
+    poolPromise = sql.connect(config);
+
     return poolPromise;
 }
 
