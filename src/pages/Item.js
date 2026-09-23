@@ -1,6 +1,7 @@
 import './Item.css';
-import ImageSlideshow from "../components/ImageSlideshow.jsx"
-import ItemDescription from "../components/ItemDescription.jsx"
+import ImageSlideshow from "../components/ImageSlideshow.jsx";
+import ItemDescription from "../components/ItemDescription.jsx";
+import LoadingSpinner from "../components/LoadingSpinner.jsx";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
@@ -30,7 +31,7 @@ function Item(){
     if (loading) {
         return (
             <div>
-                loading...
+                <LoadingSpinner/>
             </div>
         );
     }

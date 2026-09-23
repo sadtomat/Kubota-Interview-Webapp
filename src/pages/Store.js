@@ -1,7 +1,7 @@
 import './Store.css';
 import Sidebar from '../components/Sidebar.jsx';
 import ItemGrid from '../components/ItemGrid.jsx';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 
 function Store() {
@@ -11,7 +11,6 @@ function Store() {
     const [selectedFilters, setSelectedFilters] = useState(
         initialFilter ? [initialFilter] : []
     );
-    
 
     function handleFilter(category) {
         setSelectedFilters((prev) => 

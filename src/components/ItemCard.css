@@ -5,10 +5,21 @@
     border: 0.2vw inset #808080;
     margin: 2vw;
     padding: 1vw;
+    box-shadow: 0.15vw 0.15vw 0.25vw 0.15vw #000000;
 }
 .itemcard-outerbox:hover {
     background-color: #cccccc;
     border: 0.2vw inset #4d4d4d;
+}
+
+.itemcard-upperbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemcard-innerbox {
+    display: flex;
+    flex-direction: column;
 }
 
 .itemcard-img {
@@ -28,17 +39,16 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.itemcard-price {
-    font-size: 1vw;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #661a00;
-    font-weight: bold;
+.itemcard-bottombox {
+    display: flex;
 }
 
-.itemcard-add {
-    width: 5vw;
-    height: 2.5vw;
-    background-color: #ffff66;
-    font-size: 1vw;
-    margin: 0.25vw;
+.itemcard-price {
+    font-size: 2.5vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    width: 8vw;
+    color: #661a00;
+    font-weight: 800;
+    margin-left: 0.25vw;
+    margin-top: 1.5vw;
 }

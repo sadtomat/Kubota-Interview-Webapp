@@ -25,3 +25,10 @@
 .button--cart {
     margin-left: auto;
 }
+.button--item {
+    width: 7.5vw;
+    height: 3.5vw;
+    margin-top: 0.5vw;
+    border: 0.1vw solid black;
+    font-weight: bold;
+}

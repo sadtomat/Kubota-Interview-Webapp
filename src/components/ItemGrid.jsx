@@ -44,7 +44,7 @@ export default function ItemGrid({filters}){
         <div className="itemgrid-outerbox">
             {/* <ItemCard title={items[0].Name} header={items[0].Header} imgsrc={items[0].ImageUrl} price={items[0].Price}/> */}
             {filteredItems.map((item) =>(
-                <ItemCard key={item.ProductId} title={item.Name} header={item.Header} imgsrc={item.ImageUrl} price={item.Price} itemId={item.ProductId}/>
+                <ItemCard info={item}/>
             ))}
         </div>
     )

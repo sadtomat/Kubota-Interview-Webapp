@@ -1,20 +1,29 @@
 import './ItemCard.css';
 import { useNavigate } from "react-router-dom";
+import AddCartButton from "./AddCartButton.jsx";
+import NavButton from "./NavButton.jsx";
 
-export default function ItemCard({title, header, imgsrc, price, itemId}){
+export default function ItemCard({info}){
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(`/item?id=${itemId}`);
+        navigate(`/item?id=${info.ProductId}`);
     }
     
     return (
-        <div className="itemcard-outerbox" onClick={handleClick}>
-            <h1 className="itemcard-title">{title}</h1>
-            <h1 className="itemcard-desc">{header}</h1>
-            <img src={imgsrc} alt="" className="itemcard-img"></img>
-            <p className="itemcard-price">${price}</p>
-            <button className="itemcard-add">add to cart</button>
+        <div className="itemcard-outerbox">
+            <div className="itemcard-upperbox">
+                <div className="itemcard-innerbox">
+                    <h1 className="itemcard-title">{info.Name}</h1>
+                    <h1 className="itemcard-desc">{info.Header}</h1>
+                </div>
+                <NavButton link={`/item?id=${info.ProductId}`} linkText="To Page ➞" variant="item"/>
+            </div>
+            <img src={info.ImageUrl} alt="" className="itemcard-img"></img>
+            <div className="itemcard-bottombox">
+                <p className="itemcard-price">${info.Price}</p>
+                <AddCartButton item={info} quantity={1}/>
+            </div>
         </div>
     )
 }
