@@ -4,7 +4,6 @@ import AddCartButton from "./AddCartButton.jsx";
 import NavButton from "./NavButton.jsx";
 
 export default function ItemCard({info}){
-    const navigate = useNavigate();
     
     return (
         <div className="itemcard-outerbox">
