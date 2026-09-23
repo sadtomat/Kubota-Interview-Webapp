@@ -11,7 +11,7 @@ export default function ItemDescription({info}) {
             <p className="itemdesc-desc">{info.Description}</p>
             <div className="itemdesc-bottombox">
                 <div>
-                    <h1 className="itemdesc-cat">Category: {info.Type}</h1>
+                    <h1 className="itemdesc-cat">Category: {info.Type.charAt(0).toUpperCase() + info.Type.slice(1)}</h1>
                     <h1 className="itemdesc-ID">Product Id: {info.ProductId}</h1>
                 </div>
                 <AddCartButton item={info} quantity={1}/>

@@ -3,24 +3,25 @@
     height: 3.5vw;
     border-radius: 0vw;
     padding: 0.5vw;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    background-color: #e6e6ff;
-    font-size: 1vw;
+    font-family: "American Typewriter", serif;
+    background-color: #404040;
+    color: #d9d9d9;
+    font-size: 1.5vw;
     border: 0vw;
     text-align: center;
     cursor: pointer;
 }
 .button:hover {
-    background-color: #ccccff;
+    background-color: #595959;
 }
 .button:active {
-    background-color: #b3b3ff;
+    background-color: #4d4d4d;
 }
 .button--login {
-    background-color: #f2f2f2;
+    background-color: #0c270c;
 }
 .button--login:hover {
-    background-color: #e6e6e6;
+    background-color: #003321;
 }
 .button--cart {
     margin-left: auto;
@@ -29,6 +30,14 @@
     width: 7.5vw;
     height: 3.5vw;
     margin-top: 0.5vw;
+    font-size: 1vw;
+    background-color: #b3b3b3;
     border: 0.1vw solid black;
+    border-radius: 0.25vw;
+    color: black;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: bold;
+}
+.button--item:hover {
+    background-color: #999999;
 }

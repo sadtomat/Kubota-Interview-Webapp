@@ -1,15 +1,16 @@
 .login-bar {
     display: flex;
-    background-color: #f2f2f2;
+    background-color: #0c270c;
     flex-direction: row-reverse;
     height: 3.5vw;
 }
 .web-title-text {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 1.5vw;
+    font-family: "American Typewriter", serif;
+    font-size: 1.9vw;
+    color: #d9d9d9;
     margin-right: 50vw;
     padding-top: 0.5vw;
-    font-weight: bold;
+    font-weight: 800;
 
 }
 .loading-text {
@@ -17,8 +18,10 @@
     text-align: center;
 }
 .pfp-img {
+    background-color: #d9d9d9;
     width: 2.5vw;
     height: 2.5vw;
+    border-radius: 0.25vw;
     margin-right: 2.5vw;
     margin-left: 1.5vw;
     margin-top: 0.5vw;

@@ -10,7 +10,7 @@ export default function Sidebar({ selectedFilters = [], onToggleFilter }) {
                     <h1 className="sidebar-header-items">Hardware type:</h1>
                     {filters.map((filter) => (
                         <button key={filter} onClick={() => onToggleFilter(filter)} className={`sidebar-buttons ${selectedFilters.includes(filter) ? "active" : ""}`}>
-                            {selectedFilters.includes(filter) ? `${filter}s ☑` : `${filter}s ☐`}
+                            {selectedFilters.includes(filter) ? `${filter.charAt(0).toUpperCase()+filter.slice(1)}s ☑` : `${filter.charAt(0).toUpperCase()+filter.slice(1)}s ☐`}
                         </button>
                     ))}
                 </div>

@@ -25,8 +25,8 @@ export default function ImageSlideshow({images}){
     return (
         <div className="slideshow-outerbox">
             <img src={images[currentIndex]} alt={`Slide ${currentIndex+1}`} className="slideshow-img"/>
-            <button className="slideshow-arrow l" onClick={toPrev}>Left</button>
-            <button className="slideshow-arrow r" onClick={toNext}>Right</button>
+            <button className="slideshow-arrow l" onClick={toPrev}>⬅</button>
+            <button className="slideshow-arrow r" onClick={toNext}>➡</button>
             <div className="slideshow-marker">
                 {images.map((_, index) => (
                     <span key={index} className={`dot ${index === currentIndex ? "active" : ""}`} onClick={() => setCurrentIndex(index)}/>

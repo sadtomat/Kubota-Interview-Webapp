@@ -1,5 +1,6 @@
 import NavButton from './NavButton.jsx';
-import { useUser } from "../hooks/useUser.js"
+import LoadingSpinner from "./LoadingSpinner.jsx";
+import { useUser } from "../hooks/useUser.js";
 import { useNavigate } from "react-router-dom";
 import './LoginBar.css';
 
@@ -15,7 +16,7 @@ const LoginBar = () => {
     if (loading) {
         return (
             <div className="login-bar">
-                <h1 className="loading-text">Loading...</h1>
+                <LoadingSpinner/>
                 <span className="web-title-text">Welcome to the Kubota Test Web App</span>
             </div>
         );

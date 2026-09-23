@@ -1,7 +1,7 @@
 .itemdesc-outerbox {
     width: 30vw;
     padding-left: 1.5vw;
-    background-color:  #ffd9b3;
+    background-color:  #666666;
     display: flex;
     flex-direction: column;
     gap: 0vw;
@@ -16,6 +16,7 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: 800;
     padding-bottom: 1vw;
+    color: #d9d9d9;
 }
 
 .itemdesc-header {
@@ -23,13 +24,15 @@
     font-size: 1.75vw;
     font-weight: 600;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #595959;
-    border-bottom: 0.1vw solid #b3b3b3;
+    color: #d9d9d9;
+    border-bottom: 0.1vw solid black;
+    padding-right: 1.5vw;
 }
 
 .itemdesc-price {
     font-size: 2.5vw;
     font-weight: 800;
+    color: #d9d9d9;
 }
 
 .itemdesc-desc {
@@ -37,12 +40,13 @@
     padding-right: 2vw;
     padding-top: 1vw;
     white-space: pre-wrap;
+    color: #d9d9d9;
 }
 
 .itemdesc-cat {
     font-size: 1.25vw;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #595959;
+    color: #d9d9d9;
     padding-top: 1vw;
     margin-bottom: 0.5vw;
 }
@@ -51,7 +55,7 @@
     margin-top: 0.4vw;
     font-size: 1.25vw;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #595959;
+    color: #d9d9d9;
     margin: 0;
 }
 

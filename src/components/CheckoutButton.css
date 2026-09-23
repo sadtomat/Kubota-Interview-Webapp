@@ -8,6 +8,7 @@
     background-color: #ffff99;
     border: 0.15vw solid #737373;
     box-shadow: 0.26vw 0.26vw 0.365vw 0px #000000;
+    border-radius: 0.25vw;
 }
 .checkoutbutton:hover {
     background-color: #ffff66;

@@ -1,6 +1,6 @@
 .store-sidebar {
     width: 23vw;
-    background-color: #e6e6e6;
+    background-color: #595959;
     border-right: 0.25vw solid black;
     position: sticky;
     height: 100%;
@@ -28,7 +28,8 @@
 }
 
 .sidebar-title {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #d9d9d9;
+    font-family: "American Typewriter", serif;
     font-size: 2vw;
     padding-top: 2vw;
     padding-left: 2vw;
@@ -38,17 +39,19 @@
 }
 
 .sidebar-header-items {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "American Typewriter", serif;
     font-size: 1.25vw;
     border-bottom: 0.1vw solid #b3b3b3;
+    color: #d9d9d9;
 }
 
 .sidebar-buttons {
     margin-top: 0.5vw;
     border: none;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 1vw;
-    background-color: #e6e6e6;
+    font-family: "American Typewriter", serif;
+    font-size: 1.5vw;
+    color: #d9d9d9;
+    background-color: #595959;
 }
 .sidebar-buttons:hover {
     font-weight: bold;
