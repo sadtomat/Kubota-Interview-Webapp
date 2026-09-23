@@ -11,18 +11,18 @@ const config = {
     },
 };
 
-let poolPromise;
+let pool;
 
-function getPool() {
+async function getPool() {
     //console.log(process.env.SQL_CONNECTION_STRING);
 
-    if (poolPromise && pool.connected) {
-        return poolPromise;
+    if (pool && pool.connected) {
+        return pool;
     }
 
-    poolPromise = sql.connect(config);
+    pool = await sql.connect(config);
 
-    return poolPromise;
+    return pool;
 }
 
 module.exports = { sql, getPool };
