@@ -5,6 +5,7 @@
     border: 0.15vw solid black;
     margin-top: 2vw;
     margin-left: 4vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .addcartbutton-button:hover {
     background-color: #ffff66;

@@ -1,9 +1,11 @@
 import "./Profile.css";
 import InfoCard from "../components/InfoCard.jsx";
+import LoadingSpinner from "../components/LoadingSpinner.jsx";
 import {useUser} from "../hooks/useUser.js";
 
 function Profile() {
     const {user, loading} = useUser();
+    console.log(user)
 
     if (loading) {
         return (
@@ -13,7 +15,7 @@ function Profile() {
                         <img src="https://testwebappblobstorage.blob.core.windows.net/images/profile.png" className="profile-img" alt=""/>
                     </div>
                     <div className="info-box">
-                        <h1 className="name-text">Loading...</h1>
+                        <LoadingSpinner/>
                         <div className="attributes-box">
                             <InfoCard title="ID:" info=""/>
                             <InfoCard title="Identity Provider:" info=""/>
@@ -23,6 +25,7 @@ function Profile() {
             </div>
         );
     }else{
+        console.log(user);
         return (
             <div className="outer-box">
                 <div className="profile-box">

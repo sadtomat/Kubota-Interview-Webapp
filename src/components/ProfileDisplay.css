@@ -1,0 +1,21 @@
+.profiledisplay-outerbox {
+    display: flex;
+}
+
+.profiledisplay-pfp {
+    width: 9vw;
+    height: 9vw;
+    margin: 1vw;
+    object-fit: fill;
+}
+
+.profiledisplay-rightbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.profiledisplay-name {
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-weight: bold;
+}

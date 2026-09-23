@@ -1,5 +1,6 @@
 import './ItemGrid.css';
 import ItemCard from "./ItemCard.jsx";
+import LoadingSpinner from "./LoadingSpinner.jsx";
 import { useEffect, useState } from "react";
 
 
@@ -28,7 +29,11 @@ export default function ItemGrid({filters}){
     //console.log(items);
 
     if (loading) {
-        return <div>loading...</div>
+        return (
+            <div className="itemgrid-loadingcontainer">
+                <LoadingSpinner/>
+            </div>
+        )
     }
 
     const filteredItems = filters.length === 0 

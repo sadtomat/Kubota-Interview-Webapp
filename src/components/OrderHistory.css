@@ -1,0 +1,6 @@
+.orderhistory-itembox {
+    overflow-y: auto;
+    height: 40vh;
+    width: 15vw;
+    border: 0.2vw solid #00004d;
+}

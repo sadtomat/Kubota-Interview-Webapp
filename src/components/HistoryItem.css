@@ -1,0 +1,24 @@
+.historyitem-outerbox {
+    height: 5vw;
+    background-color: #e6e6e6;
+    border: 0.1vw black outset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.historyitem-groupedtext {
+    display: flex;
+    height: 1.5vw;
+    align-items: center;
+}
+
+.historyitem-header {
+    font-weight: 800;
+    font-size: 0.75vw;
+    margin-right: 0.5vw;
+}
+
+.historyitem-answer {
+    font-size: 0.75vw;
+}

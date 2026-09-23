@@ -1,11 +1,16 @@
 .cartobject-outerbox {
-    width: 55vw;
+    width: 50vw;
     height: 10vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     margin-bottom: 1vw;
     border: 0.1vw solid grey;
     background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartobject-imgbox {
     display: flex;
 }
 
@@ -14,10 +19,6 @@
     height: 9vw;
     margin: 1vw;
     object-fit: fill;
-}
-
-.cartobject-innerbox {
-    display: flex;
 }
 
 .cartobject-leftside {
@@ -34,10 +35,16 @@
     font-size: 1vw;
 }
 
+.cartobject-counter {
+    width: 3vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+
 .cartobject-rightside {
     display: flex;
     flex-direction: column;
-    margin-left: 25vw;
+    margin-right: 2vw;
 }
 
 .cartobject-price {
@@ -46,4 +53,12 @@
 
 .cartobject-quantity {
     font-size: 1vw;
+}
+
+.cartobject-remove {
+    width: 4vw;
+    height: 3vw;
+    font-size: 0.75vw;
+    font-weight: bold;
+    background-color: #b30000;
 }
